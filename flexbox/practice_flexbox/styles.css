@@ -1,82 +1,92 @@
-* {
-    border: solid black 1px;;
-
-}
-
-body {
-    /* display: flex; */
-}
-
 .banner {
     display: flex;
+    background-color: aqua;
+    border:solid blue 5px;
+    margin:20px;
+    height: 100px;
+    width: auto;
     justify-content: center;
-    padding: 50px;
-
-
 }
 
 .banner div {
-
-}
-
-.menu_buttons {
-    display: flex;
-    
-}
-
-.li{
-    display: flex;
-}
-
-.li .ul{
-    flex-direction: column-reverse;
-}
-
-.flex_container {
-    
-    display:flex;
+    /* background-color: */
+    border:dashed 5px crimson;
+    margin: 5px;
     flex:1;
-    /* padding: 15px; */
-    background-color: #fab4c0;
-    height:600px;
-    width:600px;
-    /* gap:15px; */
-    /* justify-content:space-between; */
-    /* align-items: center; */
-
 }
 
-/* .flex_items {
+.banner .middle_banner {
+    display: flex;
+    
+    
+    
+}
+
+.middle_banner div {
+    border: solid violet 2px;
+    
+}
+
+.portal {
     display:flex;
-    /* flex-direction:column ; */
-   
-/* } */ 
-
-.flex_container div {
-    background-color: #96b7d6;
-    border:solid 5px black;
-    height: 200px;
-    width: 250px;
-    text-align: center;
-    /* flex: 1 1 auto;  */
-    /* for column */
-    flex: 3 3 1;
-    /* for row  */
-   
+}
+.main_panel {
+    background-color: gold;
+    border: ridge goldenrod 5px;
+    height:200px;
+    width:auto;
+    margin: 0 5px 0 20px;
+    flex:1;
 }
 
-.flex_container .flexone {
-    flex: 1; 
-    /* for column  */
-    /* flex: 1 1 1 ; */
-    /* for row  */
+.side_panels {
+    display: flex;
+    margin-right: 20px;
+
+    flex:1;
+    align-items: stretch ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:5px;
+}
+
+.side_panels div {
+    background-color: chocolate;
+    border: ridge brown 5px;
+    flex:1;
+    
 
 }
 
-.flex_container .flextwo {
+.bottom_banner {
+    display: flex;
+    background-color: darkred;
+    border:dotted greenyellow 5px;
+    margin: 20px;
+    color: white;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#block
+{
+    display: block;
+    width:30%;
+    border: solid white 1px;
+}
+
+.bottom_banner .flex {
+    display: flex;
+    /* padding: 5px; */
+    width:auto
     
 }
 
-.flex_container .flexthree {
+.flex div {
+    border: solid white 1px;
+    gap: 5px;
+
     
+    
+
 }
